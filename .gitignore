@@ -1,0 +1,9 @@
+.sfdk/
+RPMS/
+*.o
+*.rpm
+*.pro.user*
+Makefile
+moc_*.cpp
+*.list
+harbour-sail-cycle

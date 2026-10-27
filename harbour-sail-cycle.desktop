@@ -1,0 +1,12 @@
+[Desktop Entry]
+Type=Application
+X-Nemo-Application-Type=silica-qt5
+Name=Sail Cycle
+Name[fi]=Sail Cycle
+Icon=harbour-sail-cycle
+Exec=harbour-sail-cycle
+
+[X-Sailjail]
+Permissions=Documents
+OrganizationName=fi.mikkotenhunen
+ApplicationName=SailCycle

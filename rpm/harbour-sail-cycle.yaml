@@ -1,0 +1,25 @@
+Name: harbour-sail-cycle
+Summary: A private menstrual cycle tracker for Sailfish OS
+Version: 0.1
+Release: 1
+Group: Applications
+URL: https://example.invalid/harbour-sail-cycle
+License: BSD-3-Clause
+Sources:
+  - '%{name}-%{version}.tar.bz2'
+Description: |
+  Sail Cycle is a private and easy-to-use cycle tracker for Sailfish OS.
+PkgConfigBR:
+  - sailfishapp >= 1.0.2
+  - Qt5Core
+  - Qt5Qml
+  - Qt5Quick
+PkgBR:
+  - desktop-file-utils
+Requires:
+  - sailfishsilica-qt5
+Files:
+  - '%{_bindir}/harbour-sail-cycle'
+  - '%{_datadir}/harbour-sail-cycle'
+  - '%{_datadir}/applications/harbour-sail-cycle.desktop'
+  - '%{_datadir}/icons/hicolor/*/apps/harbour-sail-cycle.png'
